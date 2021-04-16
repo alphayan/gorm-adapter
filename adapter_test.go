@@ -15,10 +15,11 @@
 package gormadapter
 
 import (
-	"github.com/jackc/pgconn"
-	"gorm.io/driver/sqlite"
 	"log"
 	"testing"
+
+	"github.com/jackc/pgconn"
+	"gorm.io/driver/sqlite"
 
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/util"
