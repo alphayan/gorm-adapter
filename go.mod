@@ -3,7 +3,7 @@ module github.com/alphayan/gorm-adapter/v3
 go 1.16
 
 require (
-	github.com/casbin/casbin/v2 v2.27.0
+	github.com/casbin/casbin/v2 v2.28.0
 	github.com/denisenkom/go-mssqldb v0.10.0 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/jackc/pgconn v1.8.1
@@ -17,5 +17,5 @@ require (
 	gorm.io/driver/postgres v1.0.8
 	gorm.io/driver/sqlite v1.1.4
 	gorm.io/driver/sqlserver v1.0.7
-	gorm.io/gorm v1.21.7
+	gorm.io/gorm v1.21.8
 )
